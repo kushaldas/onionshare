@@ -1,6 +1,7 @@
 name: Build
 run-name: Build Windows (x86_64), macOS (Intel), Snap, and Flatpak 🚀
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
